@@ -25,17 +25,19 @@ class Empleado{
     public String getName() {
         return name;
     }
-    private String name;
     public double getSalary() {
         return salary;
     }
-    private double salary;
     public Date getContract() {
         return contract;
     }
     public void raiseSalary(double bonus){
         salary = salary+bonus;
     }
+    private String name;
+
+    private double salary;
+
     private Date contract;
 
 }
