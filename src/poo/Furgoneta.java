@@ -7,6 +7,9 @@ public class Furgoneta extends Auto{
         this.plazas_extra = plazas_extra;
 
     }
+    public String getDatosFurgoneta(){
+              return capacidad_carga + " " + plazas_extra;
+    }
     private int capacidad_carga;
     private int plazas_extra;
 }
